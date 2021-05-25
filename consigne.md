@@ -22,12 +22,7 @@ J'ai un objet dont le nom est "Casar" dans la console je ferais apparaitre : "Ca
 #### Exemples d'énigmes traditionnelles :
 >* Une fois que l'on me prononce, je n'existe plus. Qui suis-je ?
 >* Je suis d'eau,je suis d'air,et je suis d'électricité. Qui suis-je ?
-#### Exemples d'énigmes pouvant être obtenu via des commande Javascript :
->* Quel heure est-il ?(écriture informatisée)
->* Quel est l'indice du premier "i" de cette question ?
->* Que fait retourne Math.floor(1.3 * 10) ?
-​
->* Le choix du type d'enigme est à votre guise cela peut même être un mix des styles
+
 ​
 ​
 ### - Trois héros : Un mage, Un guerrier, Un archer.
@@ -94,3 +89,11 @@ Avec les propriétés et actions suivantes :
 >* Chaque tour les trois personnages attaque une fois le boss.
 >* Chaque tour le boss attaque au hasard un des personnages
 ​
+
+
+
+etape:
+
+| choisir entre 3 perso
+| choisir leur point de vie
+| choisir leur point d'attaque

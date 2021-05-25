@@ -1,14 +1,41 @@
-// fonction qui permet de généré un chiffre entre 7 9 ou 11 pour la mana du mage
-function getRandomIntForMage() {
-    let rep = Math.floor(Math.random() * (12 - 7)) + 7;
-    if (rep == 7 || rep == 9 || rep == 11) {
-        return rep;
-    } else {
-        Math.floor(Math.random() * (12 - 7)) + 7;
-    }
-    return getRandomIntForMage()
-}
-let manaMage = getRandomIntForMage();
+// let attributionDePoint = (perso, pv, pa) => {
+//     let pointDonner = 100;
+//     perso.nom = prompt("comment va s'appeller ton Guerrier ?");
+//     console.log(`Tu as choisi le nom ${perso.nom}`);
+//     if (pointDonner > 0){
+//         pv = parseInt(prompt(`tu posede ${pointDonner} a attribuer, combien de point de vie veut tu attribuer a ton guerrier`));
+//         pointDonner -= pv;
+//         console.log(`tu as attribuer ${pv} point de vie a ${perso.nom}, il te reste ${pointDonner} point`);
+//         pa = parseInt(prompt("combien de point d'attaque veut tu attribuer a ton guerrier"));
+//         pointDonner -= pa;
+//         console.log(`tu as attribuer ${pa} point de vie a ${perso.nom}, il te reste ${pointDonner} point`);
+        
+//     } else if (pointDonner == 0) {
+//         alert("dsl tu na plus de point de vie a donner");
+//     }
+//     else {
+//         alert("cheh khoya, tu peut kwd au sok");
+//     }
+//     perso.nom = prompt("comment va s'appeller ton Mage ?");
+//     console.log(`Tu as choisi le nom ${perso.nom}`);
+//     if (pointDonner > 0) {
+//         pv = parseInt(prompt(`tu posede ${pointDonner} a attribuer, combien de point de vie veut tu attribuer a ton mage`));
+//         pointDonner -= pv;
+//         console.log(`tu as attribuer ${pv} point de vie a ${perso.nom}, il te reste ${pointDonner} point`);
+//         pa = parseInt(prompt("combien de point d'attaque veut tu attribuer a ton mage"));
+//         pointDonner -= pa;
+//         console.log(`tu as attribuer ${pa} point de vie a ${perso.nom}, il te reste ${pointDonner} point`);
+//         console.log(pointDonner);
+        
+//     } else if (pointDonner == 0) {
+//         alert("dsl tu na plus de point de vie a donner")
+//     } else {
+//         alert("cheh khoya, tu peut kwd au sok");
+//     }
+//     if (pointDonner > 0) {
+        
+//     }
+// }
 
 
 
@@ -16,15 +43,6 @@ let manaMage = getRandomIntForMage();
 
 
 
-// fonction qui permet de généré un chiffre entre 7 et 11 pour les fleches de l'archer
-function getRandomIntForArcher(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (7 - 11)) + 12;
-}
 
-let flecheArcher = Math.floor(Math.random() * (12 - 7)) + 7;
-
-
-// les export de variable des fonctions
-export {manaMage ,flecheArcher};
+// // les export de variable des fonctions
+// export {attributionDePoint, getRandomIntForMage ,getRandomIntForArcher};
